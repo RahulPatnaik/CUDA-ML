@@ -1,21 +1,3 @@
-# Ignore the virtual environment folder
-Softmax/venv/
-
-# Ignore build directories
-Softmax/build/
-
-# Ignore compiled shared objects
-*.so
-
-# Ignore Python bytecode files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore data or logs that are not meant to be version-controlled
-data/
-*.log
+# Ignore virtual environment and build directories  
+Softmax/build 
+Softmax/venv
