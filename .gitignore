@@ -1,3 +1,4 @@
 # Ignore virtual environment and build directories  
 Softmax/build 
 Softmax/venv
+Softmax/cuda_softmax_ext.cpython-313-x86_64-linux-gnu.so
