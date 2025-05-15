@@ -2,3 +2,5 @@
 Softmax/build 
 Softmax/venv
 *.so
+Convolution/build
+Convolution/venv
