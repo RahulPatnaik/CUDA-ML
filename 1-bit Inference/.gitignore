@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+*.dylib
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+
+# Logs and data
+*.log
+*.sqlite3
+data/
+models/quantized_weights/ # Or wherever you store large quantized files
+
+# CUDA specific
+*.o
+*.cudafe1.gpu
+*.cudafe2.gpu
+*.fatbin
+*.ptx
