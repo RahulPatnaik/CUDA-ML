@@ -17,6 +17,10 @@ Current Modules
 
 -   **Softmax**: GPU-accelerated softmax regression implementation
 
+-   **Convolution**: GPU-accelerated 2D Convolution kernels, outperforming PyTorch on matrices smaller than 256x256 on single GPU inferencing.
+
+-   **1-bit Inference**: Currently loads the DistillBERT model from the huggingface transformers library for 1-bit quantization during inference. (Work in progress)
+
 -   (Additional modules will be added as development progresses)
 
 Requirements
